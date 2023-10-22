@@ -8,7 +8,7 @@ int result;
 
 while (true)
 {
-    Console.Write("Введите трехзначное число: ");
+    Console.Write("Введите число: ");
     string stringNumber = Console.ReadLine();
     bool isNumber = int.TryParse(stringNumber, out number);
     if (isNumber)
